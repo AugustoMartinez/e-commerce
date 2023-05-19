@@ -1,0 +1,116 @@
+[
+    {
+      "name": "AMD Ryzen 5 5600X",
+      "description": "4,6 Ghz AM4",
+      "richDescription": "",
+      "image": "http://127.0.0.1:4000/public/uploads/1636917480071-910951351-amd_ryzen_7_5600x.jpg",
+      "galeryImages": [],
+      "brand": "AMD",
+      "price": 38989,
+      "category": {
+        "name": "Microprocesador",
+        "id": "61915dfe7b4bd8be8af1dd2b"
+      },
+      "countInStock": 5,
+      "rating": 4.5,
+      "numReviews": 0,
+      "isFeatured": true,
+      "dateCreated": "2021-11-14T19:18:00.244Z",
+      "id": "619160e87b4bd8be8af1dd36"
+    },
+    {
+      "name": "AMD APU A8 9600",
+      "description": "3,4 Ghz AM4",
+      "richDescription": "",
+      "image": "http://127.0.0.1:4000/public/uploads/1636917929987-541682698-amd_a8_9600.jpg",
+      "galeryImages": [],
+      "brand": "AMD",
+      "price": 12900,
+      "category": {
+        "name": "Microprocesador",
+        "id": "61915dfe7b4bd8be8af1dd2b"
+      },
+      "countInStock": 5,
+      "rating": 3,
+      "numReviews": 0,
+      "isFeatured": true,
+      "dateCreated": "2021-11-14T19:25:30.099Z",
+      "id": "619162aa7b4bd8be8af1dd39"
+    },
+    {
+      "name": "AMD Ryzen 7 5800x",
+      "description": "4,7 Ghz AM4",
+      "richDescription": "",
+      "image": "http://127.0.0.1:4000/public/uploads/1636918020894-739320858-amd_ryzen_7_5800x.jpeg",
+      "galeryImages": [],
+      "brand": "AMD",
+      "price": 59789,
+      "category": {
+        "name": "Microprocesador",
+        "id": "61915dfe7b4bd8be8af1dd2b"
+      },
+      "countInStock": 5,
+      "rating": 3,
+      "numReviews": 0,
+      "isFeatured": true,
+      "dateCreated": "2021-11-14T19:27:00.988Z",
+      "id": "619163047b4bd8be8af1dd3c"
+    },
+    {
+      "name": "Intel i3 10100F",
+      "description": "4,3 Ghz 1200",
+      "richDescription": "",
+      "image": "http://127.0.0.1:4000/public/uploads/1636918198460-598150853-i3_10100f.jpg",
+      "galeryImages": [],
+      "brand": "Intel",
+      "price": 13282,
+      "category": {
+        "name": "Microprocesador",
+        "id": "61915dfe7b4bd8be8af1dd2b"
+      },
+      "countInStock": 5,
+      "rating": 5,
+      "numReviews": 0,
+      "isFeatured": true,
+      "dateCreated": "2021-11-14T19:29:58.575Z",
+      "id": "619163b67b4bd8be8af1dd3f"
+    },
+    {
+      "name": "Intel i5 10400F",
+      "description": "4,5 Ghz 1200",
+      "richDescription": "",
+      "image": "http://127.0.0.1:4000/public/uploads/1636918428914-967227835-i5_10400f.jpg",
+      "galeryImages": [],
+      "brand": "Intel",
+      "price": 24464,
+      "category": {
+        "name": "Microprocesador",
+        "id": "61915dfe7b4bd8be8af1dd2b"
+      },
+      "countInStock": 5,
+      "rating": 4.7,
+      "numReviews": 0,
+      "isFeatured": true,
+      "dateCreated": "2021-11-14T19:33:48.998Z",
+      "id": "6191649c7b4bd8be8af1dd45"
+    },
+    {
+      "name": "Intel i7 10700k",
+      "description": "5,1 Ghz 1200",
+      "richDescription": "",
+      "image": "http://127.0.0.1:4000/public/uploads/1636918550795-455450660-micro-intel-core-i7-10700k-0.jpg",
+      "galeryImages": [],
+      "brand": "Intel",
+      "price": 46560,
+      "category": {
+        "name": "Microprocesador",
+        "id": "61915dfe7b4bd8be8af1dd2b"
+      },
+      "countInStock": 5,
+      "rating": 4.2,
+      "numReviews": 0,
+      "isFeatured": true,
+      "dateCreated": "2021-11-14T19:35:50.863Z",
+      "id": "619165167b4bd8be8af1dd48"
+    }
+  ]

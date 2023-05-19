@@ -1,0 +1,111 @@
+:root {
+    --main-bg-color: #fff;
+    --second-bg-color: #f5f5f5;
+    --third-bg-color: #e3e3e3;
+    --black: #000;
+    --border-color: #727272;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.subSection{
+    background: var(--second-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subSection:first-child{
+    justify-content: space-between;
+    height: 30px;
+}
+.contactPart{
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.contactText{
+    font-size: 13px;
+    padding: 0 10px;
+    border-right: 1px solid var(--border-color);
+    text-decoration: none;
+    color: var(--black);
+}
+.contactText:last-child{
+    border-right: 1px solid transparent;
+}
+
+.mainSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+}
+.logoLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+    margin-left: 20px;
+}
+.logoImg{
+    margin-right: 10px;
+}
+
+.searchContainer{
+    width: 600px;
+    height: 40px;
+    position: relative;
+}
+
+.searchInput{
+    background: var(--second-bg-color);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 20px;
+}
+
+.searchButton{
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-45%);
+    background: transparent;
+    border: none;
+}
+
+.userIconsInterfaces{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.userIcons{
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.userIcons a{
+    color: var(--black);
+}
+
+.navItems{
+    text-decoration: none;
+    display: inline-block;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+}

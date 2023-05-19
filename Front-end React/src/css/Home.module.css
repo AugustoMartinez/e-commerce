@@ -1,0 +1,142 @@
+:root {
+    --main-bg-color: #fff;
+    --second-bg-color: #f5f5f5;
+    --third-bg-color: #e3e3e3;
+    --black: #000;
+    --border-color: #727272;
+    --red: #c0392b;
+}
+
+.mainHome{
+    padding: 0 40px;
+}
+
+.carrouselSection{
+    position: relative;
+}
+
+.carrouselElement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0 50px;
+}
+
+.carrouselElement section{
+    width: 50%;
+}
+
+.carrouselElementTextsSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textSectionBrand{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.textSectionProductName{
+    font-size: 3rem;
+    margin: 1rem 5px;
+}
+
+.textSectionProductDescription{
+    line-height: 1.6;
+}
+
+.textSectionBuyButton{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 15px 50px;
+    margin: 20px 0;
+    color: var(--main-bg-color);
+    background: var(--black);
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 0;
+    width: 300px;
+    cursor: pointer;
+    transition: background .4s ease, color .4s ease, border .4s ease;
+}
+.textSectionBuyButton:hover{
+    background: var(--main-bg-color);
+    color: var(--black);
+    border: 2px solid var(--black);
+}
+
+.textSectionImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textSectionImgProduct{
+    width: 70%;
+}
+
+.lastProduct{
+    margin: 50px 0;
+    padding-top: 50px;
+    border-top: 1px solid var(--third-bg-color);
+}
+
+.lastProductTitle{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.cardsProducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.buttonMoreSection{
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+}
+.buttonMore{
+    display: inline-block;
+    background: var(--black);
+    color: var(--main-bg-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-weight: 500;
+    border: 2px solid transparent;
+    transition: color .3s ease, background .3s ease, border .3s ease;
+}
+
+.buttonMore:hover{
+    color: var(--black);
+    background: var(--main-bg-color);
+    border: 2px solid var(--black);
+}
+
+.slideControll:first-child{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 50%;
+}
+
+.slideControll:last-child{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}

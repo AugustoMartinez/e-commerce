@@ -1,0 +1,90 @@
+:root {
+    --main-bg-color: #fff;
+    --second-bg-color: #f5f5f5;
+    --third-bg-color: #e3e3e3;
+    --black: #000;
+    --border-color: #727272;
+    --red: #c0392b;
+}
+
+.productImgSection{
+    display: flex;
+    justify-content: center;
+}
+.mainProductFirstSection{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productData{
+    margin: 20px 10px 0;
+    width: 50%;
+}
+
+.productData h1{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.productDataBrand{
+    font-size: 16px;
+    margin: 7px 0;
+}
+
+.productDataBrand span{
+    color: var(--border-color);
+}
+
+.productDataDescription{
+    font-size: 18px;
+    line-height: 1.1;
+    margin: 10px 0;
+}
+
+.productDataPrice{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--red);
+}
+
+.buttonSection{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.button{
+    width: 35px;
+    height: 35px;
+    font-weight: 600;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.buttonComprar{
+    padding: 8px 17px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    background: var(--black);
+    color: var(--main-bg-color);
+    text-transform: uppercase;
+}
+
+.buttonComprar:hover{
+    border: 2px solid var(--black);
+    color: var(--black);
+    background: var(--main-bg-color);
+}

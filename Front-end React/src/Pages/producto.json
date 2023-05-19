@@ -1,0 +1,18 @@
+{
+    "name": "Intel i7 10700k",
+    "description": "5,1 Ghz 1200",
+    "richDescription": "",
+    "image": "http://127.0.0.1:4000/public/uploads/1636918550795-455450660-micro-intel-core-i7-10700k-0.jpg",
+    "galeryImages": [],
+    "brand": "Intel",
+    "price": 46560,
+    "category": {
+      "name": "Microprocesadores"
+    },
+    "countInStock": 5,
+    "rating": 4.2,
+    "numReviews": 0,
+    "isFeatured": true,
+    "dateCreated": "2021-11-14T19:35:50.863Z",
+    "id": "619165167b4bd8be8af1dd48"
+  }

@@ -1,0 +1,11 @@
+.sectionBreadcrum{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.textBreadcrum{
+    display: flex;
+    margin-right: 9px;
+    align-items: center;
+}
